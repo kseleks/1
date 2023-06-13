@@ -1,0 +1,15 @@
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/SEMINAR001/obj/Debug/net6.0/SEMINAR001.csproj.AssemblyReference.cache
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/SEMINAR001/obj/Debug/net6.0/SEMINAR001.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/SEMINAR001/obj/Debug/net6.0/SEMINAR001.AssemblyInfoInputs.cache
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/SEMINAR001/obj/Debug/net6.0/SEMINAR001.AssemblyInfo.cs
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/SEMINAR001/obj/Debug/net6.0/SEMINAR001.csproj.CoreCompileInputs.cache
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/SEMINAR001/bin/Debug/net6.0/SEMINAR001
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/SEMINAR001/bin/Debug/net6.0/SEMINAR001.deps.json
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/SEMINAR001/bin/Debug/net6.0/SEMINAR001.runtimeconfig.json
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/SEMINAR001/bin/Debug/net6.0/SEMINAR001.dll
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/SEMINAR001/bin/Debug/net6.0/SEMINAR001.pdb
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/SEMINAR001/obj/Debug/net6.0/SEMINAR001.dll
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/SEMINAR001/obj/Debug/net6.0/refint/SEMINAR001.dll
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/SEMINAR001/obj/Debug/net6.0/SEMINAR001.pdb
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/SEMINAR001/obj/Debug/net6.0/SEMINAR001.genruntimeconfig.cache
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/SEMINAR001/obj/Debug/net6.0/ref/SEMINAR001.dll
