@@ -1,0 +1,15 @@
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/EXAMPLE01/bin/Debug/net6.0/EXAMPLE01
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/EXAMPLE01/bin/Debug/net6.0/EXAMPLE01.deps.json
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/EXAMPLE01/bin/Debug/net6.0/EXAMPLE01.runtimeconfig.json
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/EXAMPLE01/bin/Debug/net6.0/EXAMPLE01.dll
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/EXAMPLE01/bin/Debug/net6.0/EXAMPLE01.pdb
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/EXAMPLE01/obj/Debug/net6.0/EXAMPLE01.csproj.AssemblyReference.cache
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/EXAMPLE01/obj/Debug/net6.0/EXAMPLE01.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/EXAMPLE01/obj/Debug/net6.0/EXAMPLE01.AssemblyInfoInputs.cache
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/EXAMPLE01/obj/Debug/net6.0/EXAMPLE01.AssemblyInfo.cs
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/EXAMPLE01/obj/Debug/net6.0/EXAMPLE01.csproj.CoreCompileInputs.cache
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/EXAMPLE01/obj/Debug/net6.0/EXAMPLE01.dll
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/EXAMPLE01/obj/Debug/net6.0/refint/EXAMPLE01.dll
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/EXAMPLE01/obj/Debug/net6.0/EXAMPLE01.pdb
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/EXAMPLE01/obj/Debug/net6.0/EXAMPLE01.genruntimeconfig.cache
+/Users/ksenia/Desktop/NEW_C#/EXAMPLES/EXAMPLE01/obj/Debug/net6.0/ref/EXAMPLE01.dll
