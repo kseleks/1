@@ -1,28 +1,14 @@
-﻿// Написать программу, которая будет выдавать название дня недели
-//  по заданному номеру ( от 1 до 7)
+﻿// Написать программу, которая принимает на ВХОД трехзначное число 
+// и на выходе показывает последнюю цифру этого числа
 
-Console.WriteLine ("ВВЕДИТЕ НОМЕР ДНЯ НЕДЕЛИ- ");
-int day = Convert.ToInt32 (Console.ReadLine());
-if (day > 7)
+Console.WriteLine ("ВВЕДИТЕ трезначное число- ");
+int number = Convert.ToInt32 (Console.ReadLine());
+if (number > 99 || number < 1000)
 {
-    Console.WriteLine ("Не подходит по условию задачи");
-    return;
+    Console.WriteLine (number = number % 110);
 }
-
-if (day == 1) Console.Write ("Сегодня ПОНЕДЕЛЬНИК, первый день недели   ");
-if (day == 2) Console.Write ("Сегодня ВТОРНИК,  день второй недели   ");
-if (day == 3) Console.Write ("Сегодня СРЕДА, третий день недели   ");        
-if (day == 4) Console.Write ("Сегодня ЧЕТВЕРГ, четвертый день недели   ");
-if (day == 5) Console.Write ("Сегодня ПЯТНИЦА, пятый день недели   "); 
-if (day == 6) Console.Write ("Сегодня СУББОТА, шестой день недели   ");
-if (day == 7) Console.Write ("Сегодня ВОСКРЕСЕНЬЕ, седьмой день недели   ");
-
-if (day == 0) Console.Write ("Необходимо ввести значение от 0 д 7 ");
-
-
-
-
-    
-    
-
+else
+{
+    Console.WriteLine ($"Число{number} не подходит по условию задачи");
+}
 
