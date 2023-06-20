@@ -11,7 +11,7 @@
 
 bool  SquareEachOther (int numberA, int numberB)
 {
-    if (numberA % numberB == 0 || numberB % numberA == 0)
+    if (numberA == numberB *numberB  || numberB == numberA * numberA)
     { 
         return true;
     }
