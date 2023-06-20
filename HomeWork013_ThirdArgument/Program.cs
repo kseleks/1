@@ -5,8 +5,31 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
-int ThirdArgument (int argument)
+bool FirstCompare (int numb)
+if (numb < 100)
 {
-
+    Console.WriteLine ($"There is no third number in {numb}");
+    return false;
 }
+else
+{
+    return true;
+}
+
+void SecondCompare (int numb)
+if 
+
+
+
+
+
+
+
+
+
+System.Console.WriteLine ($"ВВЕДИТЕ ЧИСЛО--->   ");
+int number =Convert.ToInt32(Console.ReadLine());
+print ThirdElement(number);
+
+
 
