@@ -5,31 +5,40 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
-bool FirstCompare (int numb)
-if (numb < 100)
+
+
+int Phrase(string message)
 {
-    Console.WriteLine ($"There is no third number in {numb}");
-    return false;
+    Console.Write(message);
+    string value = Console.ReadLine();
+    int result = Convert.ToInt32(value);
+    return result;
 }
-else
+int ThirdArgument(int number)
+// метод в котором number понижаем на десяток 
 {
+    while (number > 999)
+    {
+        number = number / 10;
+    }
+    return number % 10;
+}
+
+bool Proverka(int number)
+// проверка на актуальность числа
+{
+    if (number < 100)
+    {
+        Console.WriteLine("Theri is not 3 number");
+        return false;
+    }
     return true;
 }
 
-void SecondCompare (int numb)
-if 
+int number = Phrase("VVOD-  ");
+if (Proverka(number))
+// если число соответствует заданным требованиям мы переходим к методу
+{
+    Console.WriteLine(ThirdArgument(number));
 
-
-
-
-
-
-
-
-
-System.Console.WriteLine ($"ВВЕДИТЕ ЧИСЛО--->   ");
-int number =Convert.ToInt32(Console.ReadLine());
-print ThirdElement(number);
-
-
-
+}
