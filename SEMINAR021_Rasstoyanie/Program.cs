@@ -3,14 +3,20 @@
 // и находит РАССТОЯНИЕ между ними в 2Д пространстве
 
 // А(3,6)
-// В(2,1)------>5.09
+// В(2,1)------>5.09---5,1
 
 // A(7,-5)
 // B(1,-1)------>7.21
 
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Diagnostics;
+
 double Distance2D (double Ax, double Ay, double Bx, double By)
 {
-double distance=(Math.Sqrt((Math.Pow(Ax-Bx,2)+ Math.Pow(Ay-By,2))), 2);
+double distance=Math.Sqrt(Math.Pow(Ax-Bx,2) + Math.Pow(Ay-By,2));
 return Math.Round(distance, 2);
 }
 
@@ -26,6 +32,6 @@ double Bx=Convert.ToInt32(Console.ReadLine());
 System.Console.Write("ВВЕДИТЕ координаты Y точки B: ");
 double By=Convert.ToInt32(Console.ReadLine());
 
-System.Console.WriteLine($"Расстояние {Distance2D (Ax,Ay,Bx,By)} между точками А и В=  ");
+System.Console.WriteLine($"Расстояние  между точками А и В= {Distance2D (Ax,Ay,Bx,By)} ");
 
 
