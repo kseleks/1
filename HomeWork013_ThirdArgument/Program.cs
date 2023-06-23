@@ -6,7 +6,6 @@
 // 32679 -> 6
 
 
-
 int Phrase(string message)
 {
     Console.Write(message);
