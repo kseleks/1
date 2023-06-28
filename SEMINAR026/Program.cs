@@ -9,6 +9,7 @@
 int DigitCapacity (int num)
 {
     int digitcapacity=0;
+    // СЧЕТЧИК ЦИКЛА
     int buff=0;
     if (num==0)
     {
