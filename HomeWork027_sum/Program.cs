@@ -21,6 +21,7 @@ int SUM (int num)
             // if number=82, 0+2
             num=num/10;
             // 8
+        
         }
 
         return summa;
