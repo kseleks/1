@@ -1,14 +1,15 @@
-﻿// Задача 54: Задайте двумерный массив. 
-// Напишите программу, которая упорядочит по убыванию элементы каждой строки двумерного массива.
+﻿// Задача 56: Задайте прямоугольный двумерный массив. Напишите программу, 
+// которая будет находить строку с наименьшей суммой элементов.
+
 // Например, задан массив:
 // 1 4 7 2
 // 5 9 2 3
 // 8 4 2 4
+// 5 2 6 7
+// Программа считает сумму элементов в каждой строке
+// и выдаёт номер строки с наименьшей суммой элементов: 1 строка
 
-// В итоге получается вот такой массив:
-// 7 4 2 1
-// 9 5 3 2
-// 8 4 4 2
+
 
 void FillMatrixWithRandom(int[,] matrix)
 // заполняем массив случайными числами от 0 до 9
@@ -46,22 +47,21 @@ PrintMatrix(matrix);
 System.Console.WriteLine();
 
 
-int temp = 0;
-int[,]newmatrix=matrix;
+int SummaElements =0;
+int RowMax=0;
+int SummaMaxRow=0;
 for (int i = 0; i <matrix.GetLength(0); i++)
 {
+    SummaElements=0;
     for (int j = 0; j <matrix.GetLength(1); j++)
-     {
-        for (int z=0; z <matrix.GetLength(1)-1; z++)
-        // дополнительный коээфициент по индексу строки
-        // применяем метод "пузырьковой" сортировки
-        if (matrix[i,z]< matrix[i,z+1])
+    {
+        SummaElements=SummaElements+matrix[i,j];
+    if (SummaElements > SummaMaxRow)
         {
-            temp= matrix[i,z];
-            matrix[i,z]= matrix[i,z+1];
-            matrix[i,z+1]=temp;
+            SummaMaxRow=SummaElements;
+            RowMax=i;
         }
         
-     }
-}     
-PrintMatrix(newmatrix);
+    }
+}
+System.Console.WriteLine ($"Сумма элементов максимальной строки равна {SummaMaxRow} Индекс строки равен {RowMax}");
