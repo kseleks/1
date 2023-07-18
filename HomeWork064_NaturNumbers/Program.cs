@@ -13,6 +13,7 @@ NaturalToLow(number, count);
 
 
 void NaturalToLow(int n, int counter)
+// выводим натуральные числа до N
 {
     if (counter > n)
     {
