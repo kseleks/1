@@ -6,6 +6,7 @@
 
 
 int SumNaturalElements(int M,int N)
+// сумма натуральных чисел от M - N
 {
     int result=M;
     if (M == N)
